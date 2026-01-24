@@ -1,6 +1,6 @@
 #
 #	This file is part of the OrangeFox Recovery Project
-# 	Copyright (C) 2020-2024 The OrangeFox Recovery Project
+# 	Copyright (C) 2020-2026 The OrangeFox Recovery Project
 #
 #	OrangeFox is free software: you can redistribute it and/or modify
 #	it under the terms of the GNU General Public License as published by
@@ -38,7 +38,12 @@
 	export FOX_USE_XZ_UTILS=1
 	export FOX_USE_SED_BINARY=1
 	export FOX_USE_NANO_EDITOR=1
-	
+
+	#KSU
+	export FOX_ENABLE_KERNELSU_SUPPORT=1
+	export FOX_ENABLE_KERNELSU_NEXT_SUPPORT=1
+	export FOX_ENABLE_SUKISU_SUPPORT=1
+
 	#OTA
 	export FOX_VIRTUAL_AB_DEVICE=1
 	export FOX_DELETE_AROMAFM=1
